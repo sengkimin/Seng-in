@@ -1,0 +1,104 @@
+
+  
+ body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.on {
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(233, 189, 131);
+    position: absolute;
+    margin-left: 25%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Impact, serif;
+    font-size: 30px;
+}
+
+.para {
+    width: 100%;
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.line {
+    width: 90%;
+    margin-left: 50px;
+    height: 5px;
+    background-color: brown;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cofe, .dessert {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.menu-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 189, 131);
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 20px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
